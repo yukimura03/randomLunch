@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Today_s_lunch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl_nomal" translatesAutoresizingMaskIntoConstraints="NO" id="SBM-yS-0Py">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame" translatesAutoresizingMaskIntoConstraints="NO" id="1dI-k1-7ir">
+                                <rect key="frame" x="20" y="486" width="374" height="171"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AIf-Ga-G2w">
+                                <rect key="frame" x="52" y="508" width="311" height="126"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="セリフ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ab-v4-7kg">
+                                <rect key="frame" x="52" y="527" width="311" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHg-lQ-90X">
+                                <rect key="frame" x="322" y="598" width="29" height="29"/>
+                                <state key="normal" image="進む"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1e5-cU-AWw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AIf-Ga-G2w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="488" id="4fq-MD-y91"/>
+                            <constraint firstItem="1dI-k1-7ir" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="466" id="C6d-WA-cTW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Ab-v4-7kg" secondAttribute="bottom" constant="123" id="CEQ-LL-1ah"/>
+                            <constraint firstItem="AIf-Ga-G2w" firstAttribute="trailing" secondItem="8Ab-v4-7kg" secondAttribute="trailing" id="JYe-hM-gmb"/>
+                            <constraint firstItem="1dI-k1-7ir" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Tv5-Go-bfq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1dI-k1-7ir" secondAttribute="bottom" constant="79" id="UDC-fe-LFx"/>
+                            <constraint firstItem="SBM-yS-0Py" firstAttribute="centerX" secondItem="AIf-Ga-G2w" secondAttribute="centerX" id="Xn8-Ry-Ctz"/>
+                            <constraint firstItem="SBM-yS-0Py" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YWa-U7-Qyk"/>
+                            <constraint firstItem="PHg-lQ-90X" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="578" id="byJ-El-bCU"/>
+                            <constraint firstItem="AIf-Ga-G2w" firstAttribute="leading" secondItem="8Ab-v4-7kg" secondAttribute="leading" id="fZA-Mh-6Wt"/>
+                            <constraint firstItem="1dI-k1-7ir" firstAttribute="centerX" secondItem="8Ab-v4-7kg" secondAttribute="centerX" id="hBn-S6-NhM"/>
+                            <constraint firstItem="8Ab-v4-7kg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="nTX-jM-Oyl"/>
+                            <constraint firstItem="1dI-k1-7ir" firstAttribute="centerY" secondItem="AIf-Ga-G2w" secondAttribute="centerY" id="nap-d8-UFt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PHg-lQ-90X" secondAttribute="trailing" constant="63" id="nuA-1t-pDQ"/>
+                            <constraint firstItem="PHg-lQ-90X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="322" id="qlU-zB-ut2"/>
+                            <constraint firstItem="SBM-yS-0Py" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="sCP-Ib-Bpf"/>
+                            <constraint firstItem="8Ab-v4-7kg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="507" id="vEW-G1-Ryl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PHg-lQ-90X" secondAttribute="bottom" constant="109" id="w6K-HZ-ce5"/>
+                            <constraint firstItem="SBM-yS-0Py" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wQf-xI-C1A"/>
+                            <constraint firstAttribute="trailing" secondItem="SBM-yS-0Py" secondAttribute="trailing" id="zC4-T1-jrI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backScreen" destination="AIf-Ga-G2w" id="qWW-hj-JuS"/>
+                        <outlet property="frame" destination="1dI-k1-7ir" id="ytT-4x-fGd"/>
+                        <outlet property="girlImage" destination="SBM-yS-0Py" id="441-fG-5RA"/>
+                        <outlet property="girlText" destination="8Ab-v4-7kg" id="XUp-Te-4mo"/>
+                        <outlet property="tapButton" destination="PHg-lQ-90X" id="fIW-gC-cAq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="frame" width="333" height="200"/>
+        <image name="girl_nomal" width="73" height="200"/>
+        <image name="進む" width="66" height="66"/>
+    </resources>
+</document>
