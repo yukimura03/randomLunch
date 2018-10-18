@@ -8,7 +8,7 @@ This is an app that girls randomly choose for lunch.<br>
 
 素材について
 - イラスト illust<br>
-とくだ屋　（http://tokudaya.net/index.html） さま
+とくだ屋　（http://tokudaya.net/index.html　）さま
 
 - ボイス voice<br>
 本人の声です My voice
